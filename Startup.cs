@@ -1,12 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
 
 namespace cs_app
 {
@@ -39,6 +36,14 @@ namespace cs_app
                     await context.Response.WriteAsync("Hello World!");
                 });
             }); */
+        }
+
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
+        {
+
+
+            Console.WriteLine(env.ContentRootPath);
+            Console.WriteLine(env.IsDevelopment());
         }
     }
 }

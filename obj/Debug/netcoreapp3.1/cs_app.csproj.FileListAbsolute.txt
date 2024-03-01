@@ -32,3 +32,4 @@ C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\Razor\Views\He
 C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.RazorTargetAssemblyInfo.cs
 C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.Views.pdb
 C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.csproj.CopyComplete
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\Razor\Views\First\OtherMethod.cshtml.g.cs

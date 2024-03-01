@@ -6,13 +6,13 @@ namespace cs_app.Controllers
 {
     public class HelloController: Controller
     {
-
+/* 
         [HttpGet]
         [Route("")]
         public ViewResult Index()
         {
             return View();
-        }
+        }  */
 
         [HttpGet]
         [Route("{name}")]
@@ -48,6 +48,38 @@ namespace cs_app.Controllers
         public string FormSubmission(string formInput){
             return "yep";
         }
+
+        [HttpGet]
+        [Route("")]
+        public IActionResult Index()
+        {
+            ViewBag.Example = "Hello World";
+            return View();
+        }
+
+/* 
+        [HttpPost]
+        [Route("method")]
+        public IActionResult Method(string TextField, int NumberField)
+        {
+            return View();
+        } */
+
+
+ /*        
+
+       [HttpGet("displayint")]
+       public JsonResult DisplayInt()
+       {
+        return Json(34);
+       }
+
+       [HttpGet("displayhuman")]
+       public JsonResult DisplayHuman()
+       {
+        return Json(new Human("Moose Phillips", 50, 5, 5));
+       } */
+
 
        
 

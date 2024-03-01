@@ -25,6 +25,7 @@ namespace cs_app
             }
 
             app.UseMvc();
+            app.UseStaticFiles();
 
            /*  app.UseRouting();
             

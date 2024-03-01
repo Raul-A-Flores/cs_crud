@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css">
 </head>
 <body>
+    <h1>@ViewBag.Example</h1>
+
+    @{
+        string LocalString = ViewBag.Example + " Good to see you!";
+    }
+    <h3>@LocalString</h3>
+    @* <form action="method" method="post">
+        <input type="text" name="TextField" />
+        <input type="number" name="NumberField" />
+        <button type="submit">Submit</button>
+ *@
+    </form>
     <h1>Hello ASP.Net Mvc</h1>
     @{
         var StringList = new List<string>

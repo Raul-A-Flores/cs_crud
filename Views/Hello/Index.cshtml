@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello ASP.Net Mvc</h1>
+    @{
+        var StringList = new List<string>
+            {
+                "one",
+                "two",
+                "three",
+                "four"
+            };
+
+        
+        foreach(var word in StringList)
+        {
+            // rendering HTML from c# code 
+            <p>@word</p>
+            @if(word.Length < 4 )
+            {
+                <p>@word is a short word</p>
+            }
+        }
+        
+    }
+    
+</body>
+</html>

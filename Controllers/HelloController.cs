@@ -1,20 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace cs_app.Controllers
 {
-    public class HelloController
+    public class HelloController: Controller
     {
 
         [HttpGet]
         [Route("")]
-        public string Index1()
+        public ViewResult Index()
         {
-            return $"Hello !";
+            return View();
         }
 
         [HttpGet]
         [Route("{name}")]
-        public string Index(string name)
+        public string Index1(string name)
         {
             return $"Hello {name}!";
         }

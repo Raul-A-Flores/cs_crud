@@ -21,3 +21,14 @@ C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.RazorTa
 C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.dll
 C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.pdb
 C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.genruntimeconfig.cache
+C:\Users\thund\Documents\GitHub\Cs\cs_app\bin\Debug\netcoreapp3.1\cs_app.Views.dll
+C:\Users\thund\Documents\GitHub\Cs\cs_app\bin\Debug\netcoreapp3.1\cs_app.Views.pdb
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.RazorAssemblyInfo.cache
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.RazorAssemblyInfo.cs
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.TagHelpers.input.cache
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.TagHelpers.output.cache
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.RazorCoreGenerate.cache
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\Razor\Views\Hello\Index.cshtml.g.cs
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.RazorTargetAssemblyInfo.cs
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.Views.pdb
+C:\Users\thund\Documents\GitHub\Cs\cs_app\obj\Debug\netcoreapp3.1\cs_app.csproj.CopyComplete
